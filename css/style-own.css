@@ -768,11 +768,22 @@ a:hover {
  //--//-->   PORTFOLIO
  ======================================*/
 
+
+
 .work-box {
    margin-bottom: 3rem;
    -webkit-backface-visibility: hidden;
    backface-visibility: hidden;
+   display: inline-block;
    background-color: #fff;
+
+
+   margin: 0 2px 15px;
+   padding: 15px;
+   padding-bottom: 10px;
+   transition: opacity .4s ease-in-out;
+   display: inline-block;
+   column-break-inside: avoid;
 }
 
 .work-box:hover img {
